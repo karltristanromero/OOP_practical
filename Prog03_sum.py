@@ -3,4 +3,4 @@
 x = float(input("First number: "))
 y = float(input("Second number: "))
 
-print(x + y)
+print(f"The sum of the two numbers is: {x + y}")

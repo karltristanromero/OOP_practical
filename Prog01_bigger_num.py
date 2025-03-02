@@ -2,4 +2,4 @@
 
 x = float(input("First number: "))
 y = float(input("Second number: "))
-print(x if x > y else y)
+print(f"{x if x > y else y} is larger.")

@@ -8,4 +8,4 @@ for i in range(10):
     if int(x) % 2 == 1:
         odd += 1
 
-print(odd)
+print(f"There are {odd} odd numbers.")

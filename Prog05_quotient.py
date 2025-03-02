@@ -5,6 +5,6 @@ x = float(input("First number: "))
 y = float(input("Second number: "))
 
 try:
-    print(x / y)
+    print(f"Quotient: {x / y}")
 except ZeroDivisionError:
     print("Can't divide by zero")

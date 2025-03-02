@@ -6,4 +6,4 @@ for i in range(10):
      x = float(input(f"Please input 10 numbers (Current number: {i+1}): "))
      total_sum += x
 
-print(total_sum)
+print(f"The sum of all the numbers is: {total_sum}")
