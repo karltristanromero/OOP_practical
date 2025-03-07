@@ -3,5 +3,8 @@
 x = float(input("Enter first number: "))
 y = float(input("Enter second number: "))
 
-remainder = x % y
-print(f"The quotient of the numbers is {int(remainder)}.")
+try:
+    remainder = x % y
+    print(f"The remainder of the quotient is {remainder}.")
+except ZeroDivisionError:
+    print("You cannot divide by zero.")
