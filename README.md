@@ -4,4 +4,6 @@
 
 **Student**: Karl Tristan F. Romero
 
+**Batch**: 1
+
 **Course/Section**: BSCpE 1-6
