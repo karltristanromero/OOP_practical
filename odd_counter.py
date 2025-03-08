@@ -4,8 +4,8 @@ print("Input 10 numbers")
 
 odd = 0
 for i in range(10):
-    x = float(input(f"Enter number ({i+1}): "))
-    if int(x) % 2 == 1:
+    num = float(input(f"Enter number ({i+1}): "))
+    if int(num) % 2 == 1:
         odd += 1
 
 print(f"There are {odd} odd numbers.")
